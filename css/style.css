@@ -13,15 +13,16 @@ form#newsletter-form {
 
 input,
 label {
-  display: inline-block;
+  display: inline;
 }
 
 label {
   margin-top: 10px;
 }
 
-input [type="text"],
-input [type="email"] {
+input[type="text"],
+input[type="email"],
+label {
   height: 20px;
   width: 100%;
 }
